@@ -169,7 +169,7 @@ public class SwingPaint {
       ellipseBtn.setToolTipText("Ellipse");
       clearBtn = new JButton("Clear");
       clearBtn.addActionListener(actionListener);
-      clearBtn.setToolTipText("©2019 Created in conjunction by " + Global.authors);
+      clearBtn.setToolTipText("Â©2019 Created in conjunction by " + Global.authors);
       
       strokeSldr = new JSlider(1, 10, 1);
       strokeSldr.setMinorTickSpacing(1);
